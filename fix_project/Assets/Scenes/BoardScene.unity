@@ -144,7 +144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73564464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -69.28381, z: 0}
+  m_LocalPosition: {x: -21, y: -95, z: -165}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 267291906}
@@ -530,7 +530,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267291905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -253.50336, y: 117.28381, z: 184.07861}
+  m_LocalPosition: {x: -229, y: 117.28381, z: 33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1497257513}
@@ -1884,6 +1884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship1
       objectReference: {fileID: 0}
+    - target: {fileID: 4665543185008018664, guid: 1f99aec931be90f42b374ab948d32aac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4711395420959845122, guid: 1f99aec931be90f42b374ab948d32aac,
         type: 3}
       propertyPath: m_Animations.Array.size
@@ -1971,7 +1976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733473628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 86.42139}
+  m_LocalPosition: {x: -38, y: -102, z: -125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 267291906}
@@ -3360,7 +3365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347440920}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -89.57861}
+  m_LocalPosition: {x: -74, y: -103, z: -171}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 267291906}
@@ -3720,7 +3725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497257512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -97, z: -73}
+  m_LocalPosition: {x: -79, y: -97, z: -101.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 267291906}
@@ -6686,6 +6691,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship2
       objectReference: {fileID: 0}
+    - target: {fileID: 3641934300432417051, guid: 3292c0cc44d380741bb14feb9cced423,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3641934300432417053, guid: 3292c0cc44d380741bb14feb9cced423,
         type: 3}
       propertyPath: startingTile
@@ -6777,6 +6787,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ship3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8698710642015092570, guid: 94c9821487f0e974f91b321ce370eba1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94c9821487f0e974f91b321ce370eba1, type: 3}
@@ -6953,6 +6968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ship4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552149087232349263, guid: b7c1aabd201a2f849945bde5a5c49f7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7641319554166439857, guid: b7c1aabd201a2f849945bde5a5c49f7d,
         type: 3}

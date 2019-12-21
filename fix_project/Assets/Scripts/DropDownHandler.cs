@@ -5,10 +5,10 @@ using UnityEngine;
 public class DropDownHandler : MonoBehaviour
 {
     // Define base var for player = 2 ( not playing) and ship 1
-    public int player1_playing_input = 2;
+    public int player1_playing_input = 0;
     public int player1_ship = 0;
 
-    public int player2_playing_input = 2;
+    public int player2_playing_input = 1;
     public int player2_ship = 0 ;
 
     public int player3_playing_input = 2;
@@ -16,10 +16,25 @@ public class DropDownHandler : MonoBehaviour
 
     public int player4_playing_input = 2;
     public int player4_ship = 0 ;
+
+   
+   
+         
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Add in code to reset player prefs 
+        PlayerPrefs.SetFloat("player1_playing_input", player1_playing_input);
+        PlayerPrefs.SetFloat("player2_playing_input", player2_playing_input);
+        PlayerPrefs.SetFloat("player3_playing_input", player3_playing_input);
+        PlayerPrefs.SetFloat("player4_playing_input", player4_playing_input);
+
+        PlayerPrefs.SetFloat("player1_ship", player1_ship);
+        PlayerPrefs.SetFloat("player2_ship", player2_ship);
+        PlayerPrefs.SetFloat("player3_ship", player3_ship);
+        PlayerPrefs.SetFloat("player4_ship", player4_ship);
     }
 
     // Update is called once per frame
